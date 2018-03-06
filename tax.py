@@ -6,9 +6,9 @@ def tax(age, money, el):
     if age >= 16 and age <=65:
         if el == True:    
             if 20000 > money:
-                res=money*0.3
+                res=money*0.1
             else:
-                res=money*0.6
+                res=money*0.4
         elif el == False:
             if 20000 < money:
                 res=money*0.2
