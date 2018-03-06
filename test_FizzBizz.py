@@ -7,7 +7,7 @@ import FizzBizz
 
 class FizzBizzTestCase(unittest.TestCase):
     def test_fizzbizz(self):
-        self.assertEqual(FizzBizz.fizzbizz(5),'Bizz')
+        self.assertEqual(FizzBizz.fizzbizz(15),'FizzBizz')
         self.assertEqual(FizzBizz.fizzbizz(3),'Fizz')
         self.assertEqual(FizzBizz.fizzbizz(0),'ValueError')
 
